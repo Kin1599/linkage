@@ -7,7 +7,7 @@ Team Members:
 2) **Дмитрий Коноплянников** - Design, ML Engineer
 3) **Минкаил Толбаев** - ML Engineer
 4) **Егор Коновалов** - NLP Engineer
-5) **Семён Жидков** - ML Engineer
+5) **Семён Жидков** - Backend
 
 Презентация: 
 
