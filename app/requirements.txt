@@ -1,0 +1,10 @@
+pandas==1.5.3
+numpy==1.24.3
+recordlinkage==0.15
+nameparser==1.1.1
+pyphonetics==0.2.0
+tqdm==4.65.0
+joblib==1.3.1
+phonenumbers==8.13.14
+jupyter
+clickhouse-driver
