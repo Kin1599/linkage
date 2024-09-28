@@ -5,7 +5,7 @@
 Team Members:
 1) **Егор Гречин** - NLP Engineer
 2) **Дмитрий Коноплянников** - Design, ML Engineer
-3) **Минкаил Толбаев** - ML Engineer
+3) **Минкаил Толабаев** - Data Analytic
 4) **Егор Коновалов** - NLP Engineer
 5) **Семён Жидков** - Backend
 
