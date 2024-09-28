@@ -11,8 +11,15 @@ services:
       - ./input_data:/csv_files
       - ./docker-entrypoint-initdb.d/00_initial_datasets_tables.sh:/docker-entrypoint-initdb.d/00_initial_datasets_tables.sh
     entrypoint: /bin/sh -c "chmod +x /docker-entrypoint-initdb.d/00_initial_datasets_tables.sh && /entrypoint.sh"
-#  solution:
-#    image: solution
-#    depends_on:
-#      - clickhouse
-#    ...
+  
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: jupyter_notebook
+    volumes:
+      - ./notebooks:/notebooks  # Сохраняем .ipynb файлы в локальной папке
+    ports:
+      - "8888:8888"  # Порт для доступа к Jupyter
+    depends_on:
+      - clickhouse
